@@ -9,3 +9,5 @@ def delete_vowels(word):
 
 word = input("Ingresa una palabra ")
 print (delete_vowels(word))
+for i in range(len(word)):
+    print ("La letra " + word[i] + " ocupa el " +  str(i+1) + " puesto en la palabra.")

@@ -1,6 +1,6 @@
 def orden_numeros(n1,n2,n3):
   if n1 > n2 and n1 > n3:
-        if n2 > n3:
+        if n2 > n3: 
             return (n1, n2, n3)
         else:
             return (n1, n3, n2)
