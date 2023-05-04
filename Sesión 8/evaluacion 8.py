@@ -13,6 +13,8 @@ for i in range(len(lista)):
     for j in range(len(lista[i])):
         if lista[i][j] == 0:
             continue
+        # Imprimir cada número no cero en la sublista
+        print(lista[i][j])
         # Asignar cada sublista al diccionario correspondiente
         result_dict[chr(i+65)] = lista[i]
 
