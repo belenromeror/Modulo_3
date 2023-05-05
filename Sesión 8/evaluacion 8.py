@@ -8,6 +8,7 @@ result_dict = {}
 for i in range(len(lista)):
     # Si el primer número es cero, omitir la sublista
     if lista[i][0] == 0:
+        result_dict[chr(i+65)] = lista[i]
         continue
     # Si hay un cero en cualquier otra posición, omitir solo la impresión del cero
     for j in range(len(lista[i])):
