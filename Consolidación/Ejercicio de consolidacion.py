@@ -18,13 +18,16 @@ for nombre in nombres:
     else:
         otros.append(nombre)
 
+
 def hacer_grandioso(magos):
     for i in range(len(magos)):
         magos[i] = ("El gran " + magos[i])
 
+
 def imprimir_nombres(lista):
     for elementos in lista:
         print(elementos)
+        
 
 #Imprimir todos los nombres
 print("Todos los nombres")
@@ -42,8 +45,3 @@ imprimir_nombres(científicos)
 #Imprimir los nombres de los otros
 print("Nombres restantes")
 imprimir_nombres(otros)
-
-
-
-
-

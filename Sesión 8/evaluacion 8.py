@@ -16,7 +16,7 @@ for i in range(len(lista)):
             continue
         # Imprimir cada número no cero en la sublista
         print(lista[i][j])
-        # Asignar cada sublista al diccionario correspondiente
+        # Asignar cada sublista al diccionario correspondiente, se debe agregar para considerar todas las listas.
         result_dict[chr(i+65)] = lista[i]
 
 # Imprimir el diccionario resultante
